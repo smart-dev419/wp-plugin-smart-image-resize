@@ -1,0 +1,234 @@
+.ppsir-slider-handle {
+  padding: 0px 5px;
+  width: auto !important;
+}
+
+.ppsir-regen-settings {
+  max-width: 450px;
+  display: block;
+  margin-top: 20px;
+}
+
+select + .ms-parent {
+  min-width: 500px !important;
+}
+
+select + .ms-parent .ms-drop {
+  width: auto !important;
+}
+
+.wpsir_watermark_image_preview:not(.hidden) {
+  margin-top: 10px;
+  display: block;
+  border: 1px solid rgb(189, 189, 189);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wpsir_watermark_image_preview img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.wpsir_sidebar {
+  background: #fff;
+  padding: 20px 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.wpsir_sidebar h3 {
+  margin: 0;
+}
+
+.wpsir_sidebar ul {
+  text-align: left;
+}
+
+.wp_sir_button {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #fff !important;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  background-image: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
+}
+
+.wpsir_sidebar .dashicons {
+  color: rgb(228, 85, 125);
+}
+
+.wp_sir_upgrade_notice {
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.wp_sir_upgrade_notice .dashicons {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.wp-sir-notice-info {
+  font-size: 13px;
+  background-color: #ddd;
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.wp-sir-notice-info .dashicons {
+  color: #888;
+}
+
+.wp-sir-notice-danger {
+  font-size: 13px;
+  background-color: #ddd;
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.wp-sir-notice-danger .dashicons {
+  color: #ca4a1f;
+}
+
+label[for*='wp-sir-processable-images'] .wp-sir-toggle-button {
+  margin-right: 5px;
+}
+label[for='wp-sir-process-ml-upload'] .wp-sir-toggle-button {
+  margin-right: 5px;
+}
+label[for='wp-sir-process-ml-upload'] + .description {
+  margin-left: 40px;
+}
+
+/* #wp-media-grid label[for='processMediaLibraryImage'] {
+  justify-content: center;
+} */
+
+.wpsirProcessMediaLibraryImageWraper {
+  margin-bottom: 10px;
+}
+.wpsirProcessMediaLibraryImageTitle {
+  margin-bottom: 8px;
+}
+
+.wpsirProcessMediaLibraryImageWraper label[for="processMediaLibraryImage"]{
+  display: flex;
+  align-items: center;
+} 
+
+
+#processMediaLibraryImage{
+  font-size: 15px;
+}
+#processMediaLibraryImage + span{
+  font-size: 16px;
+}
+.wpsirQuotaStatusProgressBar {
+  width: 150px;
+  display: block;
+  height: 3.5px;
+  background: #bbb;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.wpsirQuotaStatusProgressBar > span {
+  display: block;
+  background: #667eea;
+  height: 3.5px;
+}
+
+.wpsirQuotaStatusProgressBar.isExceeding > span {
+  background: #fe7e1f;
+}
+
+.wpsirQuotaStatusProgressBar.isExceeded > span {
+  background: #ff4444;
+}
+
+
+.wpsirInfoBox{
+  background:#fff;
+  border: 1px solid #ccd0d4;
+  min-width: 255px;
+  margin-top: 15px;
+}
+
+.wpsirInfoBox ul{
+  list-style: none;
+  padding: 8px 12px;
+}
+.wpsirInfoBox ul li{
+  display: block;
+}
+.wpsirInfoBox a {
+  text-decoration: none;
+}
+.wpsirInfoBox i{
+  text-decoration: none;
+}
+.wpsirInfoBox h3{
+  margin:0;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-bottom:  1px solid #ccd0d4;
+}
+.wpsirInfoBox i,
+.wpsirInfoBox i:before{
+  font-size: 15px;
+  width: 15px;
+}
+.wpsirSettingsContainer{
+ display: flex;
+}
+
+@media(max-width:1150px){
+  .wpsirSettingsContainer{
+    display: block;
+  }
+  .wpsirInfoBox{
+    position: relative;
+    width: 100%;
+  }
+  .wpsirInfoBox ul li{
+    display: inline;
+    margin-right: 15px;
+  }
+}
+
+input[type="checkbox"].wp-sir-as-toggle:before{
+    content: none !important;
+  }
+  input[type="checkbox"].wp-sir-as-toggle,
+  input[type="checkbox"].wp-sir-as-toggle:focus   {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: inset -20px 0px 0px 0px rgba(192, 192, 192, 1) !important;
+    background-color: white !important;
+    border: 2.3px solid rgba(192, 192, 192, 1) !important;
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  input[type="checkbox"].wp-sir-as-toggle:checked {
+    box-shadow: inset 20px 0px 0px 0px #667eea !important;
+    border: 2.3px solid  #667eea !important;
+  }
+  
+.wpsirSettingsContainer .description{
+  font-size: 13px;
+}
